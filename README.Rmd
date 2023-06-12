@@ -1,0 +1,64 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# grgylap
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+The goal of `grgylap` is to demonstrate the `gargoyle` app using modules in a package:
+
+## Modules 
+
+The modules are stored in `mod_button` and `mod_table`:
+
+```{r echo=FALSE}
+fs::dir_tree("R", regexp = "mod")
+```
+
+## UI & Server
+
+The application UI and server are stored in separate functions:
+
+```{r echo=FALSE}
+fs::dir_tree("R", regexp = "gar")
+```
+
+## Standalone app function
+
+To run the application, use the `launchApp()` function:
+
+```{r echo=FALSE}
+fs::dir_tree("R", regexp = "App")
+```
+
+```{r example, eval=FALSE}
+library(grgylap)
+grgylap::launchApp()
+```
+
+# Installation
+
+You can install the development version of `grgylap` from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("mjfrigaard/grgylap")
+```
+
+## Deployed Example
+
+View a deployed version of the application [here](https://mjfrigaard.shinyapps.io/grgylap/):

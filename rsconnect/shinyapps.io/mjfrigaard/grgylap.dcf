@@ -5,9 +5,9 @@ account: mjfrigaard
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 9288763
-bundleId: 7332329
+bundleId: 7332334
 url: https://mjfrigaard.shinyapps.io/grgylap/
-when: 1686529275.20252
-lastSyncTime: 1686529275.20253
+when: 1686529459.33587
+lastSyncTime: 1686529459.33603
 asMultiple: FALSE
 asStatic: FALSE
