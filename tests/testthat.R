@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(grgylap)
+library(gargap)
 
-test_check("grgylap")
+test_check("gargap")

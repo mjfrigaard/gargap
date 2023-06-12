@@ -13,15 +13,15 @@ knitr::opts_chunk$set(
 )
 ```
 
-# grgylap
+# `gargap` (`gar`goyle `a`pp-`p`ackage)
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
-The goal of `grgylap` is to demonstrate the `gargoyle` app using modules in a package:
+The goal of `gargap` is to demonstrate the [`gargoyle` package](https://github.com/ColinFay/gargoyle) using modules (within in a package). Hence the name: **gar**goyle **a**pp-**p**ackage.
 
-## Modules 
+## Modules
 
 The modules are stored in `mod_button` and `mod_table`:
 
@@ -34,7 +34,7 @@ fs::dir_tree("R", regexp = "mod")
 The application UI and server are stored in separate functions:
 
 ```{r echo=FALSE}
-fs::dir_tree("R", regexp = "gar")
+fs::dir_tree("R", regexp = "gargo")
 ```
 
 ## Standalone app function
@@ -46,19 +46,19 @@ fs::dir_tree("R", regexp = "App")
 ```
 
 ```{r example, eval=FALSE}
-library(grgylap)
-grgylap::launchApp()
+library(gargap)
+gargap::launchApp()
 ```
 
 # Installation
 
-You can install the development version of `grgylap` from [GitHub](https://github.com/) with:
+You can install the development version of `gargap` from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("mjfrigaard/grgylap")
+devtools::install_github("mjfrigaard/gargap")
 ```
 
 ## Deployed Example
 
-View a deployed version of the application [here](https://mjfrigaard.shinyapps.io/grgylap/):
+View a deployed version of the application [here](https://mjfrigaard.shinyapps.io/gargap/):

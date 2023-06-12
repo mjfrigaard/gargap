@@ -1,44 +1,44 @@
-
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
-# `gargap` (`gar`goyle `a`pp-`p`ackage)
-
-<!-- badges: start -->
-<!-- badges: end -->
+## `gargap` (`gar`goyle `a`pp-`p`ackage)
 
 The goal of `gargap` is to demonstrate the [`gargoyle`
 package](https://github.com/ColinFay/gargoyle) using modules (within in
 a package). Hence the name: **gar**goyle **a**pp-**p**ackage.
 
-## Modules
+### Modules
 
 The modules are stored in `mod_button` and `mod_table`:
 
-    #> R
-    #> ├── mod_button.R
-    #> └── mod_table.R
+```
+R
+├── mod_button.R
+└── mod_table.R
+```
 
-## UI & Server
+### UI & Server
 
 The application UI and server are stored in separate functions:
 
-    #> R
-    #> ├── gargoyleServer.R
-    #> └── gargoyleUI.R
+```
+ R
+ ├── gargoyleServer.R
+ └── gargoyleUI.R
+```
 
-## Standalone app function
+### Standalone app function
 
 To run the application, use the `launchApp()` function:
 
-    #> R
-    #> └── launchApp.R
+```
+ R
+ └── launchApp.R
+```
 
 ``` r
 library(gargap)
 gargap::launchApp()
 ```
 
-# Installation
+## Installation
 
 You can install the development version of `gargap` from
 [GitHub](https://github.com/) with:
@@ -48,7 +48,7 @@ You can install the development version of `gargap` from
 devtools::install_github("mjfrigaard/gargap")
 ```
 
-## Deployed Example
+### Deployed Example
 
 View a deployed version of the application
 [here](https://mjfrigaard.shinyapps.io/gargap/):
