@@ -51,4 +51,4 @@ devtools::install_github("mjfrigaard/gargap")
 ## Deployed Example
 
 View a deployed version of the application
-[here](https://mjfrigaard.shinyapps.io/gargap/):
+[here](https://mjfrigaard.shinyapps.io/gargap-demo/):
