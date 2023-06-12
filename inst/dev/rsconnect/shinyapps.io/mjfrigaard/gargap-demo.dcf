@@ -5,9 +5,9 @@ account: mjfrigaard
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 9289037
-bundleId: 7332456
+bundleId: 7332477
 url: https://mjfrigaard.shinyapps.io/gargap-demo/
-when: 1686533862.04248
-lastSyncTime: 1686533862.04249
+when: 1686534392.67147
+lastSyncTime: 1686534392.67149
 asMultiple: FALSE
 asStatic: FALSE

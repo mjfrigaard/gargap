@@ -4,6 +4,8 @@ The goal of `gargap` is to demonstrate the [`gargoyle`
 package](https://github.com/ColinFay/gargoyle) using modules (within in
 a package). Hence the name: **gar**goyle **a**pp-**p**ackage.
 
+Check out the repo for this app [here](https://github.com/mjfrigaard/gargap).
+
 ### Modules
 
 The modules are stored in `mod_button` and `mod_table`:
